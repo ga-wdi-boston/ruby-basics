@@ -19,16 +19,16 @@ require 'pry'
 # end
 
 # Rub Case solution
-# 1.upto(max_num) do |i|
-#   fizz = (i % 3 == 0)
-#   buzz = (i % 5 == 0)
-#   puts case
-#        when fizz && buzz then 'FizzBuzz'
-#        when fizz then 'Fizz'
-#        when buzz then 'Buzz'
-#        else i
-#        end
-# end
+1.upto(max_num) do |i|
+  fizz = (i % 3).zero?
+  buzz = (i % 5).zero?
+  puts case i
+       when fizz && buzz then 'FizzBuzz'
+       when fizz then 'Fizz'
+       when buzz then 'Buzz'
+       else i
+       end
+end
 
 # hash solution 1
 # def fizzbuzz(max_num)
