@@ -6,17 +6,17 @@ require 'pry'
 # max_num = <number>
 
 # ruby solution
-each i 1.upto(max_num) do
-  if i % 3 == 0 && i % 5 == 0
-    puts 'fizzbuzz'
-  elsif i % 3 == 0
-    puts 'fizz'
-  elsif i % 5 == 0
-    puts 'buzz'
-  else
-    puts 'other'
-  end
-end
+# each i 1.upto(max_num) do
+#   if i % 3 == 0 && i % 5 == 0
+#     puts 'fizzbuzz'
+#   elsif i % 3 == 0
+#     puts 'fizz'
+#   elsif i % 5 == 0
+#     puts 'buzz'
+#   else
+#     puts 'other'
+#   end
+# end
 
 # Rub Case solution
 # 1.upto(max_num) do |i|
