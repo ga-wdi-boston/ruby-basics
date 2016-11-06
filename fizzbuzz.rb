@@ -7,11 +7,11 @@ require 'pry'
 
 # ruby solution
 # each i 1.upto(max_num) do
-#   if i % 3 == 0 && i % 5 == 0
+#   if (i % 3).zero? && (i % 5).zero?
 #     puts 'fizzbuzz'
-#   elsif i % 3 == 0
+#   elsif (i % 3).zero?
 #     puts 'fizz'
-#   elsif i % 5 == 0
+#   elsif (i % 5).zero?
 #     puts 'buzz'
 #   else
 #     puts 'other'
